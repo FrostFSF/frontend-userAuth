@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700&family=Outfit:wght@100..900&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import "@flaticon/flaticon-uicons/css/all/all";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input {
+        @apply bg-gray-100 h-12 rounded-md outline-purple-100 w-full pl-9
+    }
+
+    ::selection {
+        @apply bg-purple-300
+    }
+}
